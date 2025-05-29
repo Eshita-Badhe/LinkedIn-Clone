@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+<body>
+        <nav>
+            <a href="home.html"><div class="logo"> in</div></a>
+            <div class="search-bar-container">
+            <div class="search-input">
+                <span class="fas fa-search"></span>
+                <input type="text" placeholder="Search" />
+            </div>  </div>
+            <a href="home.html"><i class="fas fa-home"></i>Home</a>
+            <a href="network.html"><i class="fas fa-users"></i>My Network</a>
+            <a href="jobs.html"><i class="fas fa-briefcase"></i>Jobs</a>
+            <a href="msg.html"><i class="fas fa-envelope"></i>Messaging</a>
+            <a href="notify.html"><i class="fas fa-bell"></i>Notifications</a>
+            <a href="profile.html"><i class="fas fa-user-circle"></i>Me <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+            <a href="#"><i class="fas fa-building"></i>For Business <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+        </nav>
+
+<div class="page">
+   
+    <div class="card" style="width: 500;">
+        <table cellpadding="0" cellspacing="0" ><tr><td>
+        <h3>Messaging</h3></td><td colspan="4">
+         <div class="search-bar-container">
+            <div class="search-input" style="margin-top: 0;">
+                <span class="fas fa-search"></span>
+                <input type="text" placeholder="Search" />
+            </div>  </div> </td></tr>
+            <tr><td colspan="5"><hr></td></tr>
+        <tr><td>
+        <div class="dropdown">
+        <button class="dropdown-btn">Focused ▼</button>
+        <div class="dropdown-content">
+            <div>Focused</div>
+            <div>Other</div>
+            <div>Archived</div>
+            <div>Spam</div>
+        </div>
+        </div>
+        </td>
+        <td>
+            <button>Jobs</button></td><td>
+            <button>Unread</button></td><td>
+            <button>My connections</button></td><td>
+        <div class="dropdown">
+        <button class="dropdown-btn">All Filters ▼</button>
+        <div class="dropdown-content">
+            <div>Jobs</div>
+            <div>Unread</div>
+            <div>My Conections</div>
+            <div>In Mail</div>
+            <div>Starred</div>
+        </div>
+        </div>
+        </td></tr></table>
+        <hr>
+        <div class="chat-list">
+            <div class="chat sponsored">
+                <p><strong>PYQ</strong> <span class="date">MM XX</span></p>
+                <p class="msg">Hi ...</p>
+            </div>
+            <div class="chat selected">
+                <p><strong>PYQ</strong> <span class="date">MM XX</span></p>
+                <p class="msg">Hi ...</p>
+            </div>
+            <div class="chat">
+                <p><strong>PYQ</strong> <span class="date">MM XX</span></p>
+                <p class="msg">Hi ...</p>
+            </div>
+            <div class="chat">
+                <p><strong>PYQ</strong> <span class="date">MM XX</span></p>
+                <p class="msg">Hi ...</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+    
+    <div class="card" style="width: 250; height: 250;">
+        Loading...
+    </div>
+    <div class="card" style="width: 250;">
+            <div class="profile-info" style="margin-top: 10;">
+                <h2>Invest in Your Network</h2>
+                <p class="description">      ...    </p>
+                        <div class="puzzle">
+                        <span class="icon zip">✔</span>
+                        <div class="info">Message anyone with InMail</div>
+                        </div>
+                        <div class="puzzle">
+                        <span class="icon tango">✔</span>
+                        <div class="info">Get up to 11x more profile views</div>
+                        </div>
+                        <div class="puzzle">
+                        <span class="icon queens">✔</span>
+                        <div class="info">Stay ahead with exclusive insights</div>
+                        </div>
+                        </div>
+        </div>
+        <footer>
+        <div class="footer-links">
+            <div>
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+            </div>
+            <div>
+                <a href="#">Help Center</a>
+            </div>
+            <div>
+                <a href="#">Privacy & Terms</a>
+                <a href="#">Ad Choices</a>
+            </div>
+            <div>
+                <a href="#">Advertising</a>
+                <a href="#">Business Services</a>
+            </div>
+            <div>
+                <a href="#">Get the LinkedIn app</a>
+            </div>
+            <div>
+                <a href="#">More</a>
+        </div>
+            <div class="footer-brand">
+            <span>
+                <span style="color: #0a66c2; font-weight: bold; margin-right: 5;">Linked</span>
+            <a href="home.html" >
+                <span class="logo" style=" font-size: 15; padding: 2; padding-top: 0 ; padding-right: 2; margin-right: 0;">in</span></a>
+            LinkedIn
+<br>Corporation © 2025</span>
+        </div>
+</div>
+</footer>
+    </div>
+</div>
+<script>
+  document.querySelector('.dropdown-btn').addEventListener('click', () => {
+    document.querySelector('.dropdown-content').classList.toggle('show');
+  });
+
+  // Close dropdown if clicked outside
+  window.addEventListener('click', function(e) {
+    if (!e.target.matches('.dropdown-btn')) {
+      const dropdown = document.querySelector('.dropdown-content');
+      if (dropdown.classList.contains('show')) {
+        dropdown.classList.remove('show');
+      }
+    }
+  });
+</script>
+</body>
+</html>
