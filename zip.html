@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+<body>
+        <nav>
+            <a href="home.html"><div class="logo"> in</div></a>
+            <div class="search-bar-container">
+            <div class="search-input">
+                <span class="fas fa-search"></span>
+                <input type="text" placeholder="Search" />
+            </div>  </div>
+            <a href="home.html"><i class="fas fa-home"></i>Home</a>
+            <a href="network.html"><i class="fas fa-users"></i>My Network</a>
+            <a href="jobs.html"><i class="fas fa-briefcase"></i>Jobs</a>
+            <a href="msg.html"><i class="fas fa-envelope"></i>Messaging</a>
+            <a href="notify.html"><i class="fas fa-bell"></i>Notifications</a>
+            <a href="profile.html"><i class="fas fa-user-circle"></i>Me <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>           
+            <div class="vertical-ruler" style="height: 50;"></div>
+            <a href="#"><i class="fas fa-building"></i>For Business <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+        </nav>
+        <div class="bar">
+            <a href="home.html"><button><<</button></a>
+            <span class="description">Zip</span>
+            <div style="width: 500;"></div>
+            <a href="home.html"><button>Close</button></a>
+            <button style="border-radius: 50;">?</button>
+            <div class="settings-dropdown">
+            <button class="settings-button">Settings ▼</button>
+            <div class="dropdown-content">
+                <a href="#">Show Timer</a>
+                <a href="#">Who can see you played?</a>
+                <a href="#">Learn more <span class="info-badge">!</span></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="game-card" style="margin-left: 600; justify-content: center; align-items: center;">
+            <div id="game-board" class="board">
+                <table cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td><button class="zip" id="1">1</button></td>
+                        <td><button class="zip" id="2"></button></td>
+                        <td><button class="zip" id="3"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="zip" id="4"></button></td>
+                        <td><button class="zip" id="5">3</button></td>
+                        <td><button class="zip" id="6">2</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="zip" id="7">4</button></td>
+                        <td><button class="zip" id="8"></button></td>
+                        <td><button class="zip" id="9"></button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="buttons">
+                <button id="undo" style="margin-right: 50;">Undo</button>
+                <button id="hint" style="margin-left: 50;">Hint</button>
+            </div>
+
+
+        </div>
+        <script src="zip.js"></script>
+</body>
+</html>
+
