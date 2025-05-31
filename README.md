@@ -4,7 +4,7 @@ I recreated the LinkedIn UI using HTML, CSS, and basic JavaScript to sharpen my 
 <br>
 
 ---
-<img src="https://github.com/Eshita-Badhe/LinkedIn-UI-Clone/blob/main/images/feed.png" alt="Feed | LinkedIn" style="width:75%;height:auto;">
+<img src="https://github.com/Eshita-Badhe/LinkedIn-UI-Clone/blob/main/feed.png" alt="Feed | LinkedIn" style="width:75%;height:auto;">
 demo: 
 
 
