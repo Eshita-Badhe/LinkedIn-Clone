@@ -1116,8 +1116,376 @@ body, html {
 {
   display: flex;
   align-self: center;
+  
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.section-background {
+background: linear-gradient(to bottom, #eaf4fd, #ffffff); 
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.video-section iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-section {
+  max-width: 300px;
+}
+
+.text-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+.join-section {
+  background: linear-gradient(to top, #eaf4fd, #ffffff); 
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+
+.join-section h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.get-started {
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #005983;
+}
+
+.who-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 200px;
+}
+
+.text-panel {
+  background-color: #f3f2ef;
+  padding: 40px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+.text-panel h2 {
+  color: #b24020;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-panel p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.option {
+  background-color: #e6e6e6;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #d9d9d9;
+}
+
+.image-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+  padding: 20px;
+
+}
+
+.image-panel img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px;
+}
+
+.topic-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  background-color: #e6f0f8; /* Soft LinkedIn-style blue */
+  border-top: 1px solid #ccc; /* Optional: subtle top border */
+  text-align: left;
+}
+
+
+.card-home {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: lightgray;
+  text-align: left;
+
+  max-width: 300px;
+  height: 150;
+  padding: 20px;
+}
+
+.card-home img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.card-home h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.card-home button {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card-home select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+body.login-body,
+body.signup-body {
+  background-color: #f3f2ef;
+  font-family: Arial, sans-serif;
+   margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  background-color: #f3f2ef; /* optional background */
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  align-self: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.google-btn,
+.apple-btn,
+.signin-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 25px;
+  border: 1px solid #999;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.signin-btn {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.forgot-link {
+  color: #0a66c2;
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.join {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+.signup-container {
+  align-self: center;
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.show-text {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  font-size: 13px;
+  color: #0a66c2;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.terms-text {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.terms-text a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.join-btn,
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.join-btn {
+  background-color: #0a66c2;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.google-btn {
+  background-color: white;
+  color: #000;
+  border: 1px solid #999;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.signin-link,
+.help-link {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signin-link a,
+.help-link a {
+  color: #0a66c2;
+  text-decoration: none;
 }
