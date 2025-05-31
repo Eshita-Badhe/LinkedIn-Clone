@@ -4,206 +4,209 @@
         <link href="style.css" rel="stylesheet">
 
     </head>
-<body>
-        <nav>
-            <a href="home.html"><div class="logo"> in</div></a>
-            <div class="search-bar-container">
-            <div class="search-input">
-                <span class="fas fa-search"></span>
-                <input type="text" placeholder="Search" />
-            </div>  </div>
-            <a href="home.html"><i class="fas fa-home"></i>Home</a>
-            <a href="network.html"><i class="fas fa-users"></i>My Network</a>
-            <a href="jobs.html"><i class="fas fa-briefcase"></i>Jobs</a>
-            <a href="msg.html"><i class="fas fa-envelope"></i>Messaging</a>
-            <a href="notify.html"><i class="fas fa-bell"></i>Notifications</a>
-            <a href="profile.html"><i class="fas fa-user-circle"></i>Me <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
-            <div class="vertical-ruler" style="height: 50;"></div>
-            <a href="#"><i class="fas fa-building"></i>For Business <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+<body style="background-color: white;">
+        <nav style="border-bottom: none; margin-top: 10; margin-right: none;">
+            <a href="home.html" style="border-bottom: none;"><div class="logo"> in</div></a>
+            
+            <a href="#article"><i class="fas fa-newspaper"></i>Articles</a>
+            <a href="people.html"><i class="fas fa-users"></i>People</a>
+            <a href="learn.html"><i class="fas fa-chalkboard-teacher"></i>Learning</a>
+            <a href="#job"><i class="fas fa-briefcase"></i>Jobs</a>
+            <a href="#games"><i class="fas fa-puzzle-piece"></i>Games</a>
+            <div class="vertical-ruler" style="height: 45; width: 0.5; padding-top: 5;"></div>
+            <a href="#"><i class="fas fa-laptop"></i>Get the App </a>
+            <div class="vertical-ruler" style="height: 45; width: 0.5; padding-top: 5;"></div>
+            <div >
+            <a href="join.html" style="border-bottom: none;">
+                <button class="join">Join Now</button></a></div>
+            <a href="login.html" style="border-bottom: none;">
+            <div class="buttons">
+                <button style="border-radius: 999px;"><font size="5">Sign In</font></button>
+            </div></a>
+            
         </nav>
-
-<div class="page">
-    <div class="side-info" >
-       <div class="profile-card" style="width: 250;">
-            <div class="cover-img">
-                <img class="profile-pic" src="" alt="Profile Photo" style="width: 100; height: 100;">
-            </div>
-            <div class="profile-info">
-                <h2>ABC <small>...</small></h2>
-                <p class="description">      ...    </p>
-                <p class="location"><i class="fas fa-map-marker-alt"></i>  • <a href="#">Contact info</a></p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 260;"> 
-            <div class="profile-info">
-                <h2>Analytics <small>Private-to-you</small></h2>
-                <p class="description">      ...    </p>
-                
-            </div>
-        </div>
-
-        <div class="card" style="width: 260;">
-            <div class="profile-info">
-                <h2>About <small></small></h2>
-                <p class="description">      ...    </p>
-                
-            </div>
-        </div>
+         <div class="container-home">
+    <!-- Left Section -->
+    <div class="left">
+      <h1>Welcome to your <br />professional community</h1>
+      <button class="btn-google">
+        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="G" width="20" />
+        Continue with Google
+      </button>
+      <br>
+      <button class="btn-email">Sign in with email</button>
+      <div style="text-align: center; width: 400;">
+      <p class="note">
+        By clicking Continue to join or sign in, you agree to<br> LinkedIn’s
+        <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a>.
+      </p>
+      <p class="note">
+        New to LinkedIn? <a href="#">Join now</a>
+      </p>
+      </div>
+    </div>
     </div>
 
-    <div class="feed-content">
-        <div class="card">
-            <div class="post-top">
-                <img src="profile.jpg" alt="Profile" class="profile">
-                <input type="text" placeholder="Start a post" class="post-input">
-            </div>
-            <div class="post-options">
-                <div class="option">
-                    <span class="icon" style="color: green;">▶️</span>
-                    <span>Video</span>
-                </div>
-                <div class="option">
-                    <span class="icon" style="color: blue;">🖼️</span>
-                <span>Photo</span>
-                </div>
-                <div class="option">
-                    <span class="icon" style="color: orangered;">📝</span>
-                    <span>Write article</span>
-                </div>
-            </div>
-        </div>
+        <div class="job-section" style="background-color: lightgray;" id="article">
+            <div style="width: 700;">
+  <h2>Explore collaborative articles</h2>
+  <p>We’re unlocking community knowledge in a new way. <br>Experts add insights directly into each <br>article, started with the help of AI.</p>
+  </div>
+  <div>
+  <div class="tags">
+    <button>Engineering</button>
+    <button>Business Development</button>
+    <button>Finance</button>
+    <button>Administrative Assistant</button>
+    <button>Retail Associate</button>
+    <button>Customer Service</button>
+    <button>Operations</button>
+    <button>Information Technology</button>
+    <button>Marketing</button>
+    <button>Human Resources</button>
+  </div>
+  <div class="buttons" style="background-color: transparent;"><button>Show more </button></div>
+</div></div>
 
-            <div class="sort-by">
-                <hr>
-                <p>Sort by : <span>top <img src="images/down-arrow.png" ></span> </p>
+    <div class="job-section" id="job">
+  <div style="width: 700;"><h2>Find the right job or internship for you</h2></div>
+  <div>
+  <div class="tags">
+    <button>Engineering</button>
+    <button>Business Development</button>
+    <button>Finance</button>
+    <button>Administrative Assistant</button>
+    <button>Retail Associate</button>
+    <button>Customer Service</button>
+    <button>Operations</button>
+    <button>Information Technology</button>
+    <button>Marketing</button>
+    <button>Human Resources</button>
+  </div>
+  <div class="buttons" style="background-color: transparent;"><button>Show more </button></div>
+</div></div>
 
-            </div>
+<div class="post-job-section" >
+  <h2>Post your job for millions of people to see</h2>
+  <div class="buttons" style="background-color: transparent;"><button>Post a job </button></div>
+</div>
 
-        <div class="feed-cards">
-            <div class="profile-info" style="margin-top: 10;">
-            <h2> 
-            <img class="pic" src="" alt="Profile Photo"> ABC <small>...</small></h2>
-                <p class="description">      ...    </p>    
-            </div>
-        </div>
-        <div class="feed-cards">
-            <div class="profile-info" style="margin-top: 10;">
-            <h2> 
-            <img class="pic" src="" alt="Profile Photo"> ABC <small>...</small></h2>
-                <p class="description">      ...    </p>    
-            </div>
-        </div>
-        <div class="feed-cards">
-            <div class="profile-info" style="margin-top: 10;">
-            <h2> 
-            <img class="pic" src="" alt="Profile Photo"> ABC <small>...</small></h2>
-                <p class="description">      ...    </p>    
-            </div>
-        </div>
-        <div class="feed-cards">
-            <div class="profile-info" style="margin-top: 10;">
-            <h2> 
-            <img class="pic" src="" alt="Profile Photo"> ABC <small>...</small></h2>
-                <p class="description">      ...    </p>    
-            </div>
-        </div>
-        <div class="feed-cards">
-            <div class="profile-info" style="margin-top: 10;">
-            <h2> 
-            <img class="pic" src="" alt="Profile Photo"> ABC <small>...</small></h2>
-                <p class="description">      ...    </p>    
-            </div>
-        </div>
 
-        <center>Loading...</center>
+    <div class="job-section">
+  <div><div style="width: 700;"><h2>Discover the best software tools</h2></div>
+    <p>Connect with buyers who have first-hand <br>experience to find the best products for you.</p>
+</div>
+<div>
+  <div class="tags">
+    <button>E-Commerce Platforms</button>
+    <button>CRM Software</button>
+    <button>Human Resources Management Systems</button>
+    <button>Recruiting Software</button>
+    <button>Sales Intelligence Software</button>
+    <button>Project Management Software</button>
+    <button>Help Desk Software</button>
+    <button>Social Networking Software</button>
+    <button>Desktop Publishing Software</button>
+  </div>
+  <div class="buttons" style="background-color: transparent;"><button>Show more </button></div>
+</div></div>
+
+
+    <div class="job-section" id="games">
+  <div><div style="width: 700;"><h2>Keep your mind sharp with games</h2></div>
+    <p>Take a break and reconnect with your network through quick daily games.</p>
+</div>
+    <div>
+  <div class="tags">
+    <button>Pinpoint</button>
+    <button>Queens</button>
+    <button>Crossclimb</button>
+    <button>Tango</button>
+    <button>Zip</button>
+  </div>
+</div></div>
+
+<div class="post-job-section" style="text-align: left; padding-left: 200;">
+    <div><div class="swipe-cards"><div>
+  <h2>Let the right people know you’re open to work</h2>
+  <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.</p>
+</div>
+<div class="pro-img">
+    Loading...
+</div>
+</div>
+
+</div></div>
+
+<div style="background-color: skyblue; width: 100%; margin:0; height: auto;">
+    <p style="margin-left: 400; font-weight: bold;">Join your colleagues, classmates, and friends on <br>LinkedIn.</p>
+<div class="buttons">
+  <button 
+    style="background-color: blue; color: white;" 
+    onmouseover="this.style.backgroundColor='darkblue'" 
+    onmouseout="this.style.backgroundColor='blue'">
+    Get Started
+  </button>
+</div>
+</div>
+  
+
+  <footer class="footer-home">
+  <div class="footer-logo">LinkedIn</a>
+</div>
+
+  <div class="footer-columns">
+    <div>
+      <h4>General</h4>
+      <p>Sign Up</p>
+      <p>Help Center</p>
+      <p>About</p>
+      <p>Press</p>
+      <p>Blog</p>
+      <p>Careers</p>
+      <p>Developers</p>
     </div>
     <div>
-    <div class="card" style="margin-top: 10; width: 300;">
-            <div class="profile-info" style="margin-top: 10; width: 250;">
-                <h2>LinkedIn News <small>Top Stories</small></h2>
-                <p class="description">      ...    </p>
-                <p class="description">      ...    </p>
-                <p class="description">      ...    </p>
-                <p class="description">      ...    </p>
-                <hr>
-                    <div class="container" >
-                        <h2>Today's puzzles</h2>
-                        <br>
-                        <a href="zip.html" style="text-decoration: none;">
-                        <div class="puzzle">
-                        <span class="icon tango">✔</span>
-                        <div class="info">
-                            <strong>Zip #01</strong>
-                            <div>Harmonize the grid</div>
-                        </div>
-                        </div></a>
-                        <div class="puzzle">
-                        <span class="icon tango">✔</span>
-                        <div class="info">
-                            <strong>Tango #01</strong>
-                            <div>Harmonize the grid</div>
-                        </div>
-                        </div>
-                        <div class="puzzle">
-                        <span class="icon queens">✔</span>
-                        <div class="info">
-                            <strong>Queens #01</strong>
-                            <div>...</div>
-                        </div>
-                        </div>
-                        <div class="puzzle">
-                        <span class="icon pinpoint">✔</span>
-                        <div class="info">
-                            <strong>Pinpoint #01</strong>
-                            <div>Guess the category</div>
-                        </div>
-                        </div>
-                        <div class="puzzle">
-                        <span class="icon crossclimb">✔</span>
-                        <div class="info">
-                            <strong>Crossclimb #01</strong>
-                            <div>Unlock a trivia ladder</div>
-                        </div>
-                        </div>
-                    </div>
-
-            </div>
-        </div>
-        <footer>
-        <div class="footer-links">
-            <div>
-                <a href="#">About</a>
-                <a href="#">Accessibility</a>
-            </div>
-            <div>
-                <a href="#">Help Center</a>
-            </div>
-            <div>
-                <a href="#">Privacy & Terms</a>
-                <a href="#">Ad Choices</a>
-            </div>
-            <div>
-                <a href="#">Advertising</a>
-                <a href="#">Business Services</a>
-            </div>
-            <div>
-                <a href="#">Get the LinkedIn app</a>
-            </div>
-            <div>
-                <a href="#">More</a>
-        </div>
-            <div class="footer-brand">
-            <span>
-                <span style="color: #0a66c2; font-weight: bold; margin-right: 5;">Linked</span>
-            <a href="home.html" >
-                <span class="logo" style=" font-size: 15; padding: 2; padding-top: 0 ; padding-right: 2; margin-right: 0;">in</span></a>
-            LinkedIn
-<br>Corporation © 2025</span>
-        </div>
-</div>
-</footer>
+      <h4>Browse LinkedIn</h4>
+      <p>Learning</p>
+      <p>Jobs</p>
+      <p>Games</p>
+      <p>Salary</p>
+      <p>Mobile</p>
+      <p>Services</p>
+      <p>Products</p>
+      <p>Top Companies Hub</p>
     </div>
-</div>
+    <div>
+      <h4>Business Solutions</h4>
+      <p>Talent</p>
+      <p>Marketing</p>
+      <p>Sales</p>
+      <p>Learning</p>
+    </div>
+    <div>
+      <h4>Directories</h4>
+      <p>Members</p>
+      <p>Jobs</p>
+      <p>Companies</p>
+      <p>Featured</p>
+      <p>Learning</p>
+      <p>Posts</p>
+      <p>Articles</p>
+      <p>Schools</p>
+      <p>News</p>
+      <p>News Letters</p>
+      <p>Services</p>
+      <p>Products</p>
+      <p>Advice</p>
+      <p>People Search</p>
+    </div>
+  </div>
+</footer>
+  <div class="footer-bottom">
+    <p>LinkedIn © 2025 • About • Accessibility • Privacy Policy • Terms</p>
+  </div>
+
+
 </body>
 </html>
