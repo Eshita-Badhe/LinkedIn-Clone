@@ -5,7 +5,8 @@ I recreated the LinkedIn UI using HTML, CSS, and basic JavaScript to sharpen my 
 
 ---
 <img src="https://github.com/Eshita-Badhe/LinkedIn-UI-Clone/blob/main/feed.png" alt="Feed | LinkedIn" style="width:75%;height:auto;">
-demo: 
+
+demo: <a href="https://www.linkedin.com/posts/eshita-badhe-31gb_webdevelopment-frontend-cloning-activity-7334586237816643584-YxJR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAErSWxEBqnRucRkPnlXaAYrWLkJ1sNX_UW0">Walkthrough Video</a>
 
 
 ## Technologies Used
